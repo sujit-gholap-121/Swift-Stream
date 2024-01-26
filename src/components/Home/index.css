@@ -1,0 +1,65 @@
+.outer {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  padding: 0px;
+  margin: 0px;
+  background-color: #181818;
+}
+.thumbnail-bg {
+  margin: 0px;
+  /* overflow-y: hidden; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 10vw;
+  /* line-height: 44px; */
+  color: #ffffff;
+  align-items: flex-start;
+  line-height: 24.06px;
+}
+.heading1 {
+  font-size: 64px;
+  font-weight: 500;
+  font-family: 'HK Grotesk';
+}
+.top-thumbnail {
+  min-height: 85vh;
+}
+.para2 {
+  margin-top: 25px;
+  font-size: 20px;
+  margin-bottom: 20px;
+  font-weight: 400;
+  font-family: 'HK Grotesk';
+  width: 30%;
+}
+.play-btn {
+  padding: 10px 20px;
+  background-color: #ffffff;
+  border-radius: 4px;
+  border: none;
+  font-weight: 600;
+}
+.trending {
+  background-color: transparent;
+  padding: 15px 60px;
+  width: 100%;
+  color: #ffffff;
+  /* height: 50vh; */
+}
+.loader-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.movie-card {
+  width: 80px;
+  height: 60px;
+}
+.trend-img {
+  width: 254px;
+  height: 170px;
+  margin-right: 10px;
+  border-radius: 8px;
+}

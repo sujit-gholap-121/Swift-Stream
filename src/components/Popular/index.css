@@ -1,0 +1,28 @@
+.popular-outer {
+  min-height: 100vh;
+  padding: 0px;
+  margin: 0px;
+  background-color: #181818;
+}
+.list-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.list1 {
+  list-style-type: none;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  width: 90%;
+}
+.li2 {
+  margin-right: 30px;
+  margin-bottom: 20px;
+}
+.popular-img {
+  height: 170px;
+  width: 300px;
+  border-radius: 8px;
+}

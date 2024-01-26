@@ -1,0 +1,65 @@
+.bg {
+  background-image: url('https://res.cloudinary.com/dwqgzsu1f/image/upload/v1705948953/Netflix%20Clone/netfilx_1netflix-login_wzt1nt.png');
+  background-size: cover;
+  height: 100vh;
+}
+.Navbar {
+  display: flex;
+  justify-content: flex-start;
+  padding: 40px 120px;
+  height: 20vh;
+  align-items: center;
+}
+.logo-img {
+  height: 52px;
+}
+.login-body {
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.login-head {
+  margin-top: 10px;
+  font-size: 32px;
+  font-weight: 500;
+  text-align: center;
+  font-family: 'HK Grotesk';
+}
+.login-card {
+  background-color: #0c0b10;
+  opacity: 0.8;
+  color: #ffffff;
+  padding: 40px;
+  width: 360px;
+  border-radius: 8px;
+}
+.login-input {
+  margin-top: 5px;
+  border-radius: 4px;
+  height: 22px;
+  width: 100%;
+  margin-bottom: 10px;
+  background-color: #7e858e99;
+  color: #e2e8f0;
+  padding: 12px 7px;
+}
+.login-label {
+  font-family: 'HK Grotesk';
+  font-weight: 700;
+  font-size: 12px;
+  color: #ffffff;
+}
+.login-button {
+  padding: 8px;
+  width: 100%;
+  background-color: #e50914;
+  color: #f8fafc;
+  border-radius: 8px;
+  font-size: 14px;
+  margin-top: 30px;
+}
+.error-para {
+  color: #e50914;
+  margin-top: 2px;
+}
